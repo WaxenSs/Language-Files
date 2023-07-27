@@ -16,6 +16,7 @@ shop-type-desc-book: "vends des copies de livres"
 
 shop-object-type-living: "{type}"
 shop-object-type-sign: "sign"
+shop-object-type-hanging-sign: "hanging sign"
 shop-object-type-npc: "npc"
 
 selected-shop-type: "&aType de magasin séléctionné: &6{type} &7({description})"
@@ -537,10 +538,10 @@ type-new-villager-name: "&aEcrivez le nom du villageois dans le tchat.\n  &aEcri
 villager-name-set: "&aLe nom du villageois a été définis!"
 villager-name-invalid: "&aCe nom n'est pas valide!"
 
-list-admin-shops-header: "&9Il y a &e{shopsCount} &9shop admin: &e(Page {page} sur {maxPage})"
-list-all-shops-header: "&9Il y a &e{shopsCount} &9magasin au total: &e(Page {page} sur {maxPage})"
-list-player-shops-header: "&9Le joueur '&e{player}&9' a &e{shopsCount} &9magasin: &e(Page {page} sur {maxPage})"
-list-shops-entry: "  &e{shopId}) &7{shopName}&r&8at &7({location})&8, type: &7{shopType}&8, object: &7{objectType}"
+list-admin-shops-header: "&9Il y a &e{shopsCount} &9shop admin: &8(Page {page} sur {maxPage})"
+list-all-shops-header: "&9Il y a &e{shopsCount} &9magasin au total: &8(Page {page} sur {maxPage})"
+list-player-shops-header: "&bProfil shop de &7{player}&b (&bmagasin: &7{shopsCount}): &8(Page {page} sur {maxPage})"
+list-shops-entry: "  &b{shopId}) &9Nom: &7{shopName} &9Localisation: &7{location} &9Type: &7{shopType} &9Marchant: &7{objectType}"
 
 shop-removed: "&aLe marchand a été retiré."
 shop-already-removed: "&7Le marchand a déjà été retiré."
