@@ -1,6 +1,6 @@
 # Language: fr
 
-date-time-format: "yyyy-MM-dd HH:mm:ss"
+date-time-format: "dd-MM-yyyy HH:mm:ss"
 
 shop-type-admin-regular: "Magasin Admin"
 shop-type-selling: "Magasin de vente"
